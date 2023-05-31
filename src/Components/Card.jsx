@@ -1,11 +1,11 @@
 import React from 'react'
 import CardStyle from './Card.module.css'
 
-const Card = () => {
+const Card = ({nombre, email}) => {
   return (
     <div className={CardStyle.tarjeta}>
-        <h2>Hola </h2>
-        <h3>Tu direccion es </h3>
+        <h2>Respuesta recibida! Muchas gracias {nombre}</h2>
+        <h3>En breve nuestro equipo se pondra en contacto contigo por email ({email}) para agendar un turno</h3>
     </div>
   )
 }

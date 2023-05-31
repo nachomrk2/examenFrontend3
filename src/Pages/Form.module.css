@@ -1,0 +1,21 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 50px;
+    background-color: rgb(46, 150, 150);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.h2 {
+    margin-bottom: 40px;
+}
+
+.button {
+    margin-top: 40px;
+}
